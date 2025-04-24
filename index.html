@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="exibir.html" method="get" autocomplete="on">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome"
+        placeholder="Coloque seu nome aqui!"
+        maxlength="10"
+        required>
+        <br>
+        <label for="numero">Número: </label>
+        <input type="number" name="numero" id="numero" placeholder="Coloque seu número aqui!" required>
+        <br>
+        <br>
+
+        <div id="radios">
+            <label for="videogame">Radios de Videogame</label><br>
+            <input type="radio" name="videogame" value="atari"> Atari <br>
+            <input type="radio" name="videogame" value="snes"> Snes <br>
+            <input type="radio" name="videogame" value="ps"> PS <br><br>
+
+            <label for="disciplinas">Radios de Disciplinas</label> <br>
+            <input type="radio" name="disciplinas" value="amelhor"> Tec Front <br>
+            <input type="radio" name="disciplinas" value="intro"> Introdução <br>
+            <input type="radio" name="disciplinas" value="br"> Banco de Dados <br>
+        </div>
+        <br>
+        <div id="checkbox">
+            <label for="checkbox">Checkboxes de Cursos</label><br>
+            <input type="checkbox" name="curso1" value="sist" id="sist">
+            <label for="sist">Sistemas para internet</label><br>
+            <input type="checkbox" name="curso2" value="arq" id="arq">
+            <label for="sist">Arquitetura e urbanismo</label><br>
+            <input type="checkbox" name="curso3" value="ads" id="ads">
+            <label for="sist">ADS</label>
+        </div>
+        <br>
+        <input type="checkbox" name="aceito" value="aceito" id="aceito">
+        <label for="aceito">Você aceita os termos e condições? <a href="">Termos e condições</a></label>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
