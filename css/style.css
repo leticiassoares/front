@@ -1,0 +1,18 @@
+
+body{
+    text-align: center;
+    padding: 200px;
+}
+div#principal{ 
+    background-color: rgb(204, 204, 204);
+    border: 5px;
+    border-radius: 3px;
+    border-color: black;
+    padding: 20px;
+    justify-content: center;
+}
+.sansation-light {
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
